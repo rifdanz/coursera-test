@@ -1,0 +1,72 @@
+		h1 {
+			text-align: center;
+		}
+		.container {
+			width: 90%;
+			overflow: hidden;
+			background-color: white; 
+			margin: 20px auto;
+			padding: 20px; 
+		}
+		.container ul {
+			padding: 0px;
+			margin: 50px;
+		}
+		.container ul li {
+			list-style: none;
+			float: left;
+			width: 400px;
+			height: 200px;
+			background: darkgrey;
+			margin: 40px 40px 0px 40px;
+			box-sizing: border-box;
+			border: solid black;
+			text-align: justify;
+			padding: 10px;
+		}
+		.container ul li .title {
+			width: 100px;
+			height: 50px;
+			line-height: 50px;
+			background: pink;
+			text-align: center;
+			float: right;
+			font-weight: bold;
+			border: solid black;
+			position: fixed;
+		    top: 215px;
+		    left: 463px;
+		}
+		.container ul li .title2 {
+			width: 100px;
+			height: 50px;
+			line-height: 50px;
+			background: red;
+			text-align: center;
+			float: right;
+			font-weight: bold;
+			border: solid black;
+			position: fixed;
+		    top: 215px;
+		    right: 425px;
+		}
+		.container ul li .title3 {
+			width: 100px;
+			height: 50px;
+			line-height: 50px;
+			background: yellow;
+			text-align: center;
+			float: right ;
+			font-weight: bold;
+			border: solid black;
+			position: fixed;
+			position: fixed;
+		    top: 455px;
+		    left: 462px;
+		}
+		@media screen and (max-width: 1250px) {
+			.container ul li {
+				width: 40%;
+				margin: 40px;
+			}
+		}
